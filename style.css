@@ -1,0 +1,218 @@
+html {
+
+    background: linear-gradient(
+            90deg,
+            rgba(0, 255, 201, 1) 0%,
+            rgba(119, 72, 166, 1) 50%,
+            rgba(255, 83, 83, 1) 100%
+    );
+}
+
+body {
+    font-family: helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 7em;
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 50px 40px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 7px;
+}
+
+h2 {
+    -webkit-animation: UnHoverOption 300ms ease-in-out;
+    color: #fff;
+    font-size: 3em;
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 60px 40px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 7px;
+}
+
+h2:hover {
+    -webkit-animation: HoverOption 300ms ease-in-out;
+    font-size: 2.94em;
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 490px;
+}
+
+h3 {
+    color: #fff;
+    font-size: 3em;
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 60px 40px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 7px;
+}
+
+h5 {
+    color: #fff;
+    font-size: 3em;
+}
+
+.textHolder {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 60px 40px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 7px;
+}
+
+.textHolderThin {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 40px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 7px;
+}
+
+.FAQ {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    max-width: 1500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 7px;
+}
+
+p {
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.worksCited{
+    font-size: 1.1em
+}
+
+ul {
+    font-size: 1.5em;
+    text-align: left;
+}
+
+ol {
+    font-size: 1.5em;
+    text-align: left;
+}
+
+h4 {
+    font-size: 2em;
+}
+
+a {
+    color: #fff;
+}
+
+.backWrapper {
+    text-align: left;
+    padding: 15px 30px;
+}
+
+.creditText {
+    color: #fff;
+    font-size: 1.15em;
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px 10px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 7px;
+}
+
+.backArrow {
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 7px;
+}
+
+.lowerBrainStructureDiagram, .LimbicSystemDiagram, .cerebralCortexDiagram {
+    max-width: 750px;
+    background-color: rgba(0, 0, 0, 0.25);
+    margin: 50px auto;
+    padding: 15px 15px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 7px;
+}
+
+.L1Q {
+    display: block;
+    height: 1x;
+    border: 0;
+    border-top: 2px dotted yellow;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.L2Q {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px dotted dodgerblue;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.L3Q {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px dotted green;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.L4Q {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px dotted red;
+    margin: 1em 0;
+    padding: 0;
+}
+
+@keyframes HoverOption{
+    0% {
+        font-size: 3em;
+        background-color: rgba(0, 0, 0, 0.25);
+        max-width: 500px;
+    }
+    100% {
+        font-size: 2.94em;
+        background-color: rgba(0, 0, 0, 0.5);
+        max-width: 490px;
+    }
+}
+
+@keyframes UnHoverOption{
+    0% {
+        font-size: 2.94em;
+        background-color: rgba(0, 0, 0, 0.5);
+        max-width: 490px;
+    }
+    100% {
+        font-size: 3em;
+        background-color: rgba(0, 0, 0, 0.25);
+        max-width: 500px;
+    }
+}
